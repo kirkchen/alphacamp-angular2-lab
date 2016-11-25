@@ -10,6 +10,13 @@ export class TodoService {
     private http: Http
   ) { }
 
+  getTodo(id: string): Promise<Todo> {
+    var url = `http://ac-todo.azurewebsites.net/api/todos/${id}`
+    return this.http.get(url)
+      .toPromise()
+      .then(response => response.json() as Todo);
+  }
+
   getTodoList(): Promise<Todo[]> {
     var url = `http://ac-todo.azurewebsites.net/api/todos`
     return this.http.get(url)

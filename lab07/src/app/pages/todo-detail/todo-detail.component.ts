@@ -15,6 +15,6 @@ export class TodoDetailComponent implements OnInit {
     this.todo = {
       Id: 1,
       Content: "My todo item"
-    };
+    }
   }
 }

@@ -1,5 +1,7 @@
-<label for="id">Id:</label>
-<p>{{ todo.Id }}</p>
+<div *ngIf="todo">
+    <label for="id">Id:</label>
+    <p>{{ todo.Id }}</p>
 
-<label for="content">Content:</label>
-<p>{{ todo.Content }}</p>
+    <label for="content">Content:</label>
+    <p>{{ todo.Content }}</p>
+</div>
