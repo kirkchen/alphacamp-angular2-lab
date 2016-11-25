@@ -1,4 +1,4 @@
-# 練習撰寫 Typescript
+# Lab02 - 練習撰寫 Typescript
 
 1. 安裝 Typescript 與 ts-node
 
