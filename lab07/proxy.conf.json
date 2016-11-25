@@ -1,0 +1,6 @@
+{
+  "/api": {
+    "target": "http://ac-todo.azurewebsites.net",
+    "secure": false
+  }
+}
