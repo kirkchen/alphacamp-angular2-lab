@@ -1,10 +1,10 @@
-import { Lab04Page } from './app.po';
+import { Lab06Page } from './app.po';
 
-describe('lab05 App', function() {
-  let page: Lab05Page;
+describe('lab06 App', function() {
+  let page: Lab06Page;
 
   beforeEach(() => {
-    page = new Lab05Page();
+    page = new Lab06Page();
   });
 
   it('should display message saying app works', () => {
