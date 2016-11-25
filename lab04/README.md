@@ -55,6 +55,15 @@
     <app-todo-list></app-todo-list>
     ```
 
+1. 打開 `app.component.html`，修改起始頁面
+
+    ```
+    <h1>
+        TodoList
+    </h1>
+    <app-todo></app-todo>
+    ```
+
 1. 產生 `TodoInput` Component，提供輸入 `Todo` 資料
 
     ``` bash
