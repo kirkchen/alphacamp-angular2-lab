@@ -80,3 +80,11 @@
             }
         }
     ```
+
+1. 打開 `todo-input.component.html`，綁定 submit 按鈕
+
+    ```
+    <label for="content">Content:</label>
+    <input type="text" [(ngModel)]="content">
+    <button type="button" (click)="onSubmit()">Submit</button>
+    ```
