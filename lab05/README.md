@@ -57,7 +57,7 @@
     import { Todo } from '../models/todo';
 
     @Injectable()
-    export class TodoService {
+    export class TodoLocalService {
 
         constructor() { }
 
